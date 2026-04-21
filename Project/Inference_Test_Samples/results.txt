@@ -1,0 +1,43 @@
+Evaluating 5 random samples...
+Saving outputs and logs to: ./Inference_Test_Samples
+------------------------------------------------------------
+Sample 1/5 (Dataset Index: 154 | Frames: 86)
+Original Video Path: /home/abdullahm/jaleel/CV_project/CLIP-SLA/Data/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/26September_2009_Saturday_tagesschau-2336
+Saved Video Path:    ./Inference_Test_Samples/Videos/26September_2009_Saturday_tagesschau-2336
+GT (German):   SUED BISSCHEN SCHAUER MOEGLICH
+GT (English):   A BIT OF SHOWERS POSSIBLE
+PRED (German): SUED BISSCHEN SCHAUER MOEGLICH
+PRED (English): A BIT OF SHOWERS POSSIBLE
+------------------------------------------------------------
+Sample 2/5 (Dataset Index: 110 | Frames: 92)
+Original Video Path: /home/abdullahm/jaleel/CV_project/CLIP-SLA/Data/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/18July_2009_Saturday_tagesschau-1640
+Saved Video Path:    ./Inference_Test_Samples/Videos/18July_2009_Saturday_tagesschau-1640
+GT (German):   ALPEN SUED NACHT SECHS MAXIMAL FUENFZEHN FLUSS
+GT (English):   ALPS SOUTH NIGHT SIX MAXIMUM FIFTEEN RIVER
+PRED (German): ALPEN NACHT SECHS MAXIMAL FUENFZEHN FLUSS
+PRED (English): ALPS NIGHT SIX MAXIMUM FIFTEEN RIVER
+------------------------------------------------------------
+Sample 3/5 (Dataset Index: 511 | Frames: 33)
+Original Video Path: /home/abdullahm/jaleel/CV_project/CLIP-SLA/Data/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/13December_2010_Monday_tagesschau-6944
+Saved Video Path:    ./Inference_Test_Samples/Videos/13December_2010_Monday_tagesschau-6944
+GT (German):   FREITAG MEHR RUHIG
+GT (English):   FRIDAY MORE QUIET
+PRED (German): FREITAG RUHIG
+PRED (English): FRIDAY QUIET
+------------------------------------------------------------
+Sample 4/5 (Dataset Index: 305 | Frames: 129)
+Original Video Path: /home/abdullahm/jaleel/CV_project/CLIP-SLA/Data/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/11August_2009_Tuesday_tagesschau-4355
+Saved Video Path:    ./Inference_Test_Samples/Videos/11August_2009_Tuesday_tagesschau-4355
+GT (German):   SONST VIEL WOLKE NORD KOMMEN SCHAUER GEWITTER KOENNEN
+GT (English):   OTHERWISE, LOTS OF CLOUDS, SHOWER, THUNDERSTORMS COMING TO THE NORTH
+PRED (German): SONST FREITAG WOLKE NORD KOMMEN SCHAUER GEWITTER KOENNEN
+PRED (English): OTHERWISE FRIDAY CLOUD, SHOWER AND THUNDERSTORMS COMING TO THE NORTH
+------------------------------------------------------------
+Sample 5/5 (Dataset Index: 312 | Frames: 41)
+Original Video Path: /home/abdullahm/jaleel/CV_project/CLIP-SLA/Data/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px/test/29June_2011_Wednesday_tagesschau-4490
+Saved Video Path:    ./Inference_Test_Samples/Videos/29June_2011_Wednesday_tagesschau-4490
+GT (German):   NORDOST BLEIBEN TROCKEN
+GT (English):   NORTHEAST REMAIN DRY
+PRED (German): NORDOST BLEIBEN TROCKEN
+PRED (English): NORTHEAST REMAIN DRY
+------------------------------------------------------------

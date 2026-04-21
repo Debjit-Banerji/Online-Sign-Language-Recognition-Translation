@@ -1,0 +1,170 @@
+Evaluating 50 samples | window=16 frames | simulated 10 FPS                                                                                     
+                                                                                                                                                
+=================================================================                                                                               
+Online inference:   0%|                                                                                                  | 0/50 [00:00<?, ?it/s]
+/home/abdullahm/miniconda3/envs/cv_proj/lib/python3.10/site-packages/torch/nn/functional.py:5109: UserWarning: Support for mismatched key_paddin
+g_mask and attn_mask is deprecated. Use same type for both instead.                                                                             
+  warnings.warn(                                                                                                                                
+[  1/50] 03July_2011_Sunday_tagesschau-1665  |  frames=170  AL=32.3fr / 3.23s                                                                   
+  GT:   REGION MEHR FREUNDLICH HOCH DRUCK KOMMEN BIS REGION                                                                                     
+  PRED: REGION MEHR FREUNDLICH HOCH KOMMEN MINUS REGION                                                                                         
+[  2/50] 12July_2010_Monday_tagesschau-374  |  frames=136  AL=22.8fr / 2.28s                                                                    
+  GT:   MORGEN OST SUEDOST MISCHUNG SONNE WOLKE TEILWEISE REGEN GEWITTER                                                                        
+  PRED: MORGEN OST SUEDOST SUEDOST MISCHUNG SONNE WOLKE TEILWEISE REGEN GEWITTER                                                                
+[  3/50] 02December_2009_Wednesday_tagesschau-4039  |  frames=92  AL=24.0fr / 2.40s                                                             
+  GT:   JETZT WETTER WIE-AUSSEHEN MORGEN DONNERSTAG DRITTE DEZEMBER                                                                             
+  PRED: JETZT WETTER WIE-AUSSEHEN MORGEN DONNERSTAG DRITTE DEZEMBER                                                                             
+[  4/50] 11November_2010_Thursday_tagesschau-3564  |  frames=103  AL=13.7fr / 1.37s                                                             
+  GT:   TEILWEISE REGEN KOMMEN IX
+  PRED: TEILWEISE REGEN KOMMEN
+[  5/50] 27August_2009_Thursday_tagesschau-3267  |  frames=88  AL=22.9fr / 2.29s                                                                
+  GT:   MORGEN WETTER WIE-AUSSEHEN FREITAG ACHT ZWANZIG AUGUST
+  PRED: MORGEN WETTER WIE-AUSSEHEN FREITAG ACHT ZWANZIG AUGUST
+[  6/50] 24August_2010_Tuesday_tagesschau-2196  |  frames=136  AL=36.7fr / 3.67s                                                                
+  GT:   HEUTE NACHT KUESTE REGEN SUED AUCH IX LANGSAM AUFLOESEN
+  PRED: NACHT KUESTE REGEN SUED AUCH IX LANGSAM MILD
+[  7/50] 08February_2010_Monday_heute-1498  |  frames=99  AL=23.2fr / 2.33s                                                                     
+  GT:   WEST KAUM SCHNEE AUFTAUCHEN ABER AUSNAHME ACHTUNG MEER
+  PRED: WOCHENENDE KAUM SCHNEE VERSCHWINDEN ABER MITTE
+[  8/50] 25November_2009_Wednesday_tagesschau-7677  |  frames=55  AL=26.7fr / 2.67s                                                             
+  GT:   FREITAG REGEN WECHSELHAFT
+  PRED: FREITAG REGEN WECHSELHAFT
+[  9/50] 02August_2010_Monday_heute-1243  |  frames=120  AL=18.3fr / 1.83s                                                                      
+  GT:   DANN REGEN OST REGION MILD FUENFZEHN SECHSZEHN
+  PRED: DANN REGEN OST REGION MILD FUENFZEHN SIEBZEHN
+[ 10/50] 29March_2010_Monday_tagesschau-8387  |  frames=58  AL=29.8fr / 2.98s                                                                   
+  GT:   REGEN GEWITTER
+  PRED: HIER REGEN GEWITTER MIT
+[ 11/50] 16December_2009_Wednesday_tagesschau-5907  |  frames=126  AL=20.0fr / 2.00s                                                            
+  GT:   JETZT WETTER MORGEN DONNERSTAG SIEBZEHN DEZEMBER
+  PRED: JETZT WETTER MORGEN DONNERSTAG SIEBZEHN DEZEMBER
+[ 12/50] 30January_2013_Wednesday_tagesschau-476  |  frames=145  AL=22.8fr / 2.27s                                                              
+  GT:   AUCH SAMSTAG REGEN SCHNEE SCHNEIEN IM-VERLAUF WEST NORDWEST MEHR FREUNDLICH
+  PRED: AUCH SAMSTAG REGEN SCHNEE SCHEINEN SPAETER WEST NORD MEHR FREUNDLICH
+[ 13/50] 01October_2009_Thursday_tagesschau-421  |  frames=38  AL=21.3fr / 2.13s                                                                
+  GT:   SUED REGION BESSER
+  PRED: SUED REGION BESSER
+[ 14/50] 18April_2011_Monday_tagesschau-1314  |  frames=82  AL=22.2fr / 2.22s                                                                   
+  GT:   MORGEN WETTER WIE-AUSSEHEN DIENSTAG NEUNZEHN APRIL
+  PRED: MORGEN WETTER WIE-AUSSEHEN DIENSTAG NEUNZEHN APRIL
+[ 15/50] 14August_2011_Sunday_tagesschau-3230  |  frames=77  AL=35.8fr / 3.58s                                                                  
+  GT:   MORGEN KOENNEN REGEN GEWITTER UNWETTER KOENNEN
+  PRED: IX REGEN GEWITTER UNWETTER KOENNEN
+[ 16/50] 05May_2010_Wednesday_tagesschau-3360  |  frames=134  AL=26.3fr / 2.63s                                                                 
+  GT:   WOCHENENDE MEHR WARM WETTER WECHSELHAFT GEWITTER UND SONNE DABEI 
+  PRED: ABER MEHR WARM WETTER WECHSELHAFT DOCH GEWITTER UND SONNE DABEI
+[ 17/50] 17January_2011_Monday_tagesschau-7005  |  frames=132  AL=19.0fr / 1.90s                                                                
+  GT:   SUED AUCH VIEL WOLKE ODER NEBEL ABER REGEN SUED KAUM
+  PRED: SUED AUCH VIEL WOLKE ODER NEBEL ABER REGEN SUED KAUM
+[ 18/50] 04January_2010_Monday_tagesschau-8550  |  frames=96  AL=26.7fr / 2.67s                                                                 
+  GT:   NORD WIND MAESSIG KUESTE KOENNEN FRISCH WIND
+  PRED: NORD WIND MAESSIG KUESTE KOENNEN FRISCH
+[ 19/50] 17April_2010_Saturday_tagesschau-399  |  frames=96  AL=52.0fr / 5.20s                                                                  
+  GT:   NAECHSTE WOCHE LUFT KOMMEN MEHR KUEHL
+  PRED: LUFT WEHEN MEHR KUEHL
+[ 20/50] 10December_2009_Thursday_heute-7945  |  frames=212  AL=16.2fr / 1.62s                                                                  
+  GT:   NORD SCHNEE REGEN WECHSELHAFT
+  PRED: NORD REGION KOENNEN MOEGLICH SONNE WAHRSCHEINLICH ORT SAMSTAG NOCH NORD REGEN REGEN
+[ 21/50] 05February_2010_Friday_tagesschau-2924  |  frames=121  AL=21.6fr / 2.17s                                                               
+  GT:   ABER STARK WOLKE HIMMEL KOENNEN NEBEL TEILWEISE SOLL SONNE DABEI 
+  PRED: ABER STARK WOLKE HIMMEL KOENNEN NEBEL TEILWEISE AUCH SONNE DABEI 
+[ 22/50] 09August_2010_Monday_heute-5890  |  frames=110  AL=13.6fr / 1.36s                                                                      
+  GT:   RUSSLAND IX TROCKEN HEISS SCHEINEN FUENF DREISSIG BIS VIERZIG GRAD
+  PRED: DANN RUSSLAND IX TROCKEN VIEL SCHEINEN FUENF BIS DREISSIG VIER GRAD
+[ 23/50] 22February_2010_Monday_tagesschau-3246  |  frames=138  AL=25.6fr / 2.56s                                                               
+  GT:   NORDOST HEUTE NACHT TROCKEN IN-KOMMEND REGEN NORDWEST REGEN
+  PRED: NORDOST HEUTE NACHT TROCKEN IX REGEN NORD REGEN NORD
+[ 24/50] 26July_2010_Monday_tagesschau-6266  |  frames=151  AL=35.7fr / 3.57s                                                                   
+  GT:   MITTWOCH NORDWEST KOMMEN REGEN SCHAUER TEIL GEWITTER
+  PRED: MITTWOCH NORDWEST KOMMEN REGEN SCHAUER TEIL TEIL GEWITTER
+[ 25/50] 27May_2010_Thursday_tagesschau-8382  |  frames=153  AL=42.2fr / 4.22s                                                         [50/9128]
+  GT:   SONNTAG WECHSELHAFT TEIL UEBERWIEGEND REGEN AUCH DABEI GEWITTER                                                                         
+  PRED: SONNTAG WECHSELHAFT TEIL HAUPTSAECHLICH REGEN AUCH DABEI GEWITTER                                                                       
+[ 26/50] 05September_2009_Saturday_tagesschau-4085  |  frames=37  AL=25.2fr / 2.52s                                                             
+  GT:   NACHT STURM                                                                                                                             
+  PRED: NACHT STURM                                                                                                                             
+[ 27/50] 14August_2009_Friday_tagesschau-75  |  frames=57  AL=57.0fr / 5.70s                                                                    
+  GT:   WAHRSCHEINLICH SCHAUER GEWITTER STARK                                                                                                   
+  PRED: WAHRSCHEINLICH SCHAUER GEWITTER STARK                                                                                                   
+[ 28/50] 03February_2010_Wednesday_heute-2362  |  frames=36  AL=21.3fr / 2.13s                                                                  
+  GT:   SCHOEN ABEND AUSRICHTEN                                                                                                                 
+  PRED: SCHOEN ABEND poss-EUCH
+[ 29/50] 21May_2010_Friday_tagesschau-5094  |  frames=114  AL=37.6fr / 3.76s                                                                    
+  GT:   ES-BEDEUTET WIND WEHEN ABER HAUPTSAECHLICH SCHWACH MAESSIG WEHEN 
+  PRED: WIND HAUPTSAECHLICH SCHWACH MAESSIG WEHEN
+[ 30/50] 03February_2010_Wednesday_heute-2355  |  frames=26  AL=26.0fr / 2.60s                                                                  
+  GT:   NORD TROCKEN IX
+  PRED: NORD TROCKEN
+[ 31/50] 26August_2009_Wednesday_tagesschau-3213  |  frames=109  AL=26.0fr / 2.60s                                                              
+  GT:   MORGEN WETTER WIE-AUSSEHEN DONNERSTAG SIEBEN ZWANZIG AUGUST
+  PRED: MORGEN WETTER WIE-AUSSEHEN DONNERSTAG SIEBEN ZWANZIG AUGUST
+[ 32/50] 29August_2009_Saturday_tagesschau-5020  |  frames=61  AL=20.4fr / 2.04s                                                                
+  GT:   MORGEN FRUEH IX MOEGLICH NEBEL
+  PRED: MORGEN FRUEH MOEGLICH NEBEL
+[ 33/50] 02October_2010_Saturday_tagesschau-1300  |  frames=64  AL=24.0fr / 2.40s                                                               
+  GT:   MILD WEHEN ICH
+  PRED: MILD WEHEN
+[ 34/50] 17May_2010_Monday_heute-5576  |  frames=130  AL=33.9fr / 3.39s 
+  GT:   KUEHL NAECHSTE BESSER SONNE KOMMEN DANN WARM
+  PRED: AUCH KUEHL IN-KOMMEND DANN SONNE KOMMEN UND WARM
+[ 35/50] 26October_2009_Monday_tagesschau-1403  |  frames=84  AL=20.8fr / 2.08s                                                                 
+  GT:   FREITAG WENN NEBEN AUFLOESEN SONNE
+  PRED: FREITAG WENN NEBEL VERSCHWINDEN SONNE
+[ 36/50] 23August_2010_Monday_heute-5328  |  frames=57  AL=27.1fr / 2.71s                                                                       
+  GT:   AUCH SO WEITER MITTWOCH
+  PRED: AUCH SO NAH MITTWOCH
+[ 37/50] 17July_2009_Friday_tagesschau-5104  |  frames=113  AL=35.8fr / 3.58s                                                                   
+  GT:   KOMMEN KALT LUFT SO DESHALB WETTER WECHSELHAFT
+  PRED: WEHEN KALT LUFT DESHALB WETTER WECHSELHAFT
+[ 38/50] 04January_2010_Monday_tagesschau-8552  |  frames=100  AL=18.8fr / 1.88s                                                                
+  GT:   HEUTE NACHT MINUS ZWEI MINUS ZWANZIG UNTEN ALPEN TAL
+  PRED: HEUTE NACHT MINUS ZWEI MINUS ZWEI ALPEN ALPEN
+[ 39/50] 24March_2011_Thursday_tagesschau-3937  |  frames=123  AL=27.8fr / 2.78s                                                                
+  GT:   NACHT NORD NORDOST WOLKE OST REGION MOEGLICH IX REGEN                                                                                   
+  PRED: NACHT IX NORD NORDOST WOLKE OST REGION MOEGLICH IX REGEN                                                                                
+[ 40/50] 09July_2010_Friday_tagesschau-591  |  frames=177  AL=24.9fr / 2.49s                                                                    
+  GT:   ZUERST GEWITTER NUR WEST RISIKO JEDEN-TAG OST MEHR OST KOENNEN GEWITTER WEST
+  PRED: ZUERST NUR WEST RISIKO GEWITTER WEST
+[ 41/50] 06May_2011_Friday_tagesschau-6435  |  frames=131  AL=25.1fr / 2.51s                                                                    
+  GT:   HEUTE NACHT ZWOELF GRAD REGION EINS GRAD BAYERN WALD REGION
+  PRED: HEUTE NACHT ZWOELF GRAD REGION EINS GRAD BAYERN ALLGAEU WALD REGION
+[ 42/50] 13July_2009_Monday_tagesschau-7509  |  frames=99  AL=34.6fr / 3.46s                                                                    
+  GT:   GRENZE TEILWEISE STARK GEWITTER REGEN
+  PRED: MEER TEIL STARK GEWITTER REGEN
+[ 43/50] 03July_2009_Friday_tagesschau-2014  |  frames=141  AL=37.6fr / 3.76s                                                                   
+  GT:   SONNTAG UEBERWIEGEND OST SUED SCHAUER GEWITTER REGION FREUNDLICH 
+  PRED: SONNTAG UEBERWIEGEND OST SUED SCHAUER GEWITTER REGION FREUNDLICH 
+[ 44/50] 06October_2011_Thursday_heute-5534  |  frames=98  AL=39.8fr / 3.98s                                                                    
+  GT:   TIEF KALT KOMMEN MITTE EUROPA
+  PRED: TIEF ELF KALT KOMMEN SCHON EUROPA
+[ 45/50] 06September_2010_Monday_tagesschau-1153  |  frames=105  AL=23.8fr / 2.38s                                                              
+  GT:   DONNERSTAG WECHSELHAFT FREITAG WEST KOMMEN FREUNDLICH
+  PRED: DONNERSTAG WECHSELHAFT FREITAG WEST FREUNDLICH
+[ 46/50] 04December_2011_Sunday_tagesschau-7791  |  frames=101  AL=31.6fr / 3.16s                                                               
+  GT:   WIND KALT DIENSTAG REGEN SCHNEE GRAUPEL
+  PRED: WIND KUEHL DIENSTAG REGEN SCHNEE JANUAR
+[ 47/50] 01April_2010_Thursday_tagesschau-4330  |  frames=82  AL=21.8fr / 2.17s                                                                 
+  GT:   BESONDERS FREUNDLICH NORDOST BISSCHEN BEREICH
+  PRED: BESONDERS FREUNDLICH NORD BISSCHEN
+[ 48/50] 11February_2010_Thursday_tagesschau-8761  |  frames=110  AL=21.1fr / 2.11s                                                             
+  GT:   WOCHENENDE IM-VERLAUF MEHR TROCKEN ABER BLEIBEN KALT
+  PRED: WOCHE MACHEN IM-VERLAUF MEHR TROCKEN ABER BLEIBEN KALT
+[ 49/50] 08October_2009_Thursday_tagesschau-5352  |  frames=55  AL=26.9fr / 2.69s                                                               
+  GT:   NORD HEUTE NACHT WIND
+  PRED: NORD HEUTE ABEND WIND
+[ 50/50] 14September_2010_Tuesday_heute-8239  |  frames=106  AL=20.4fr / 2.04s                                                                  
+  GT:   HIER NEU TIEF NORD SCHWER STURM TEIL
+  PRED: NEU TIEF IX NORD STURM BLEIBEN
+Online inference: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 50/50 [08:59<00:00, 10.79s/it]
+
+=================================================================
+ONLINE INFERENCE — AVERAGE LAGGING RESULTS
+=================================================================
+  Samples evaluated   : 50
+  Window size         : 16 frames
+  Simulated FPS       : 10
+  Mean AL (frames)    : 27.21
+  Mean AL (seconds)   : 2.721 s
+  Min  AL (seconds)   : 1.360 s
+  Max  AL (seconds)   : 5.700 s
+=================================================================
