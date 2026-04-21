@@ -1,0 +1,53 @@
+# Test Set Result on Phase 3 Model Checkpoints
+
+WER:     0.2909  ↓ lower is better
+BLEU-4:  51.20
+ROUGE-L: 0.7749
+BERT-P:  0.9475
+BERT-R:  0.9383
+BERT-F1: 0.9427
+=================================================================
+ONLINE INFERENCE — AVERAGE LAGGING RESULTS
+=================================================================
+  Samples evaluated   : 642
+  Window size         : 16 frames
+  Simulated FPS       : 10
+  Mean AL (frames)    : 27.06
+  Mean AL (seconds)   : 2.706 s
+=================================================================
+
+# Dev Set Result on Phase 3 Model Checkpoints
+
+WER:     0.2729  ↓ lower is better
+BLEU-4:  52.31
+ROUGE-L: 0.7950
+BERT-P:  0.9514
+BERT-R:  0.9405
+BERT-F1: 0.9458
+=================================================================
+ONLINE INFERENCE — AVERAGE LAGGING RESULTS
+=================================================================
+  Samples evaluated   : 519
+  Window size         : 16 frames
+  Simulated FPS       : 10
+  Mean AL (frames)    : 26.91
+  Mean AL (seconds)   : 2.691 s
+=================================================================
+
+# Test Set Result on Phase 2 Model Checkpoints
+
+WER:     0.2992  ↓ lower is better
+BLEU-4:  61.48
+ROUGE-L: 0.7683
+BERT-P:  0.9462
+BERT-R:  0.9372
+BERT-F1: 0.9415
+
+# Dev Set Result on Phase 2 Model Checkpoints
+
+WER:     0.2780  ↓ lower is better
+BLEU-4:  0.00
+ROUGE-L: 0.7873
+BERT-P:  0.9500
+BERT-R:  0.9406
+BERT-F1: 0.9451
